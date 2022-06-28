@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="detail_title">Day %s</string>
+    <string name="detail_description">Forecast: %s</string>
+    <string name="detail_sunrise">Sunrise: %s</string>
+    <string name="detail_sunset">Sunset: %s</string>
+    <string name="detail_rain">Rain probability: %s\%%</string>
+    <string name="detail_max">Max temperature: %s°</string>
+    <string name="detail_min">Min temperature: %s°</string>
+    <string name="detail_download">Download image</string>
+    <string name="detail_error_downloading">Error while downloading the image. Please check if the device has internet connection.</string>
+
+    <string name="error_downloading">Error loading the data. Please check if the device has internet connection.</string>
+
+    <string name="weather_forecast_image">Weather forecast image</string>
+    <string name="weather_upcoming">Upcoming</string>
+    <string name="weather_hottest">Hottest</string>
+    <string name="main_title">Forecast</string>
+</resources>

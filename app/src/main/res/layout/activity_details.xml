@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.DetailsActivity">
+
+    <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/forecastDetailDownloadImage"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+                android:id="@+id/forecastDetailDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/detail_description" />
+
+        <TextView
+                android:id="@+id/forecastDetailSunrise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/detail_sunrise" />
+
+        <TextView
+                android:id="@+id/forecastDetailSunset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/detail_sunset" />
+
+        <TextView
+                android:id="@+id/forecastDetailRainProbability"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/detail_rain" />
+
+        <TextView
+                android:id="@+id/forecastDetailHigh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/detail_max" />
+
+        <TextView
+                android:id="@+id/forecastDetailLow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/detail_min" />
+
+        <ImageView
+                android:id="@+id/forecastDetailImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="16dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/weather_forecast_image"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:src="@drawable/no_image" />
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/forecastDetailDownloadImage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:text="@string/detail_download" />
+</androidx.constraintlayout.widget.ConstraintLayout>
