@@ -9,7 +9,7 @@ buildscript {
         targetSdkVersion = 33
 
         // App dependencies
-        kotlinVersion = '1.7.0'
+        kotlinVersion = '1.7.10'
     }
 
     repositories {
