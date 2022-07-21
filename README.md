@@ -7,4 +7,4 @@ All written by me to simply demo my knowledge.
 
 <img src="/screenshots/weather_main.png" width="150"> <img src="/screenshots/weather_detail.png" width="150"> <img src="/screenshots/weather_detail_pic.png" width="150">
 
-*Images are not loaded automatically in the list, only once the user manually downloaded them in the detail view they get cached and can then be shown in the list.
+*Images are not loaded automatically in the list, only once the user manually downloaded them in the detail view they get cached and can then be shown in the list. This is not intended to show a real use case, just to demo the usage of the different technologies.
